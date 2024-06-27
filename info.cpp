@@ -2,8 +2,6 @@
 
 using namespace std;
 
-
-
 int proba(float ALL[], int number, float sp,int par,int cur,float prob,int depth){
 	int nuh;
 	if(depth==number){
@@ -84,6 +82,7 @@ float search(int my_base,int my_coin_number,int my_coin_power,float my_sp_r,int 
 	return victory+lose;
 }
 int main(){
+	cout<<"Not a lot but a honest work\n"
 	int repeat=1;
 	while(repeat==1){
 		int my_base;int my_coin_number;int my_coin_power;float my_sp; int en_base;int en_coin_number;int en_coin_power;float en_sp;int my_par;int en_par;
